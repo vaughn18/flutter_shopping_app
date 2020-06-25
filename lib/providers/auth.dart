@@ -13,6 +13,7 @@ class Auth with ChangeNotifier {
   String _userId;
   Timer _authTimer;
 
+//set the getters
   bool get isAuth {
     return token != null;
   }
